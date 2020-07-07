@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         fragmentManager=getSupportFragmentManager();
 
 
-        fragments[0] = new Fragment();
-        fragments[1] = new Fragment();
-        fragments[2] = new Fragment();
-        fragments[3] = new Fragment();
+        fragments[0] = new EasyFragment();
+        fragments[1] = new NormalFragment();
+        fragments[2] = new FoodFlagment();
+        fragments[3] = new BottleFragment();
 
         FragmentTransaction tran = fragmentManager.beginTransaction();
         tran.add(R.id.recycler,fragments[0]);
