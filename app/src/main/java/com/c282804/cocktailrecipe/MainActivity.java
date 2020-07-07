@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -14,6 +15,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
+
+
 
     FragmentManager fragmentManager;
 
@@ -26,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Easy Cocktail");
 
 
+
         fragmentManager=getSupportFragmentManager();
 
 
         fragments[0] = new EasyFragment();
         fragments[1] = new NormalFragment();
-        fragments[2] = new FoodFlagment();
+        fragments[2] = new FoodFragment();
         fragments[3] = new BottleFragment();
 
         FragmentTransaction tran = fragmentManager.beginTransaction();
@@ -53,12 +57,15 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.Normal_:
                         tran.replace(R.id.recycler,fragments[1]);
+                        break;
 
                     case R.id.Food_:
                         tran.replace(R.id.recycler,fragments[2]);
+                        break;
 
                     case R.id.Bottle_:
                         tran.replace(R.id.recycler,fragments[3]);
+                        break;
                 }
 
                 tran.commit();
