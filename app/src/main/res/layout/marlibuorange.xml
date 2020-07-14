@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/glass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/underrock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기준 : 언더락(300mL)"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_fkdlwm"
+        android:layout_below="@+id/glass"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화이트럼에 코코넛을 으깨 넣어 만든 말리부와 오렌지주스를 섞어서 마시는 아주 간단한 칵테일 "
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <!--    -->
+
+
+    <LinearLayout
+        android:id="@+id/iv_RKffndk"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fkdlwm">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/marlibu1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="말리부 1 oz"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <!--    -->
+
+
+    <LinearLayout
+        android:id="@+id/vmffjtm"
+        android:layout_below="@id/iv_RKffndk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_RKffndk"
+            android:layout_marginLeft="90dp"
+            android:text="+"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/dndb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vmffjtm">
+
+        <ImageView
+            android:id="@+id/rmfpskels"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/orangej" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오렌지주스 채우기"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

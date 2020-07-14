@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/glass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/underrock" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="기준 : 삼각잔" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_Rkffndk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/glass"
+            android:layout_marginTop="20dp"
+            android:text="달콤한 커피의 풍미가 특징이다. 커피 리큐어의 단맛이 독한 보드카를 부드럽게 하여, 알코올 함량이 높은데도 감칠맛이 좋은 인상적인 칵테일이다."
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--    -->
+
+
+        <LinearLayout
+            android:id="@+id/iv_RKffndk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_Rkffndk"
+            android:layout_marginTop="15dp">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kahlua" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="깔루아 1oz"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--    -->
+
+
+        <LinearLayout
+            android:id="@+id/vmffjtm"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_RKffndk">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_RKffndk"
+                android:layout_marginLeft="90dp"
+                android:text="+"
+                android:textSize="40dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/dndb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vmffjtm">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/amartto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="아마레또 0.5oz"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/plus"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_RKffndk">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_RKffndk"
+                android:layout_marginLeft="90dp"
+                android:text="+"
+                android:textSize="40dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dndb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vmffjtm">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dndb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="우유 1 oz"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/plus2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_RKffndk">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_RKffndk"
+                android:layout_marginLeft="90dp"
+                android:text="+"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/qpdlffltm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vmffjtm">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/balleys" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="베일리스 1 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="얼음을 넣은 후 셰이커나 믹서기로  섞어준다 "/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

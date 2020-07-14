@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_djfdma"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1"
-        android:textSize="50sp"/>
+        android:text="얼음을 필수로 먼저 넣어야 혼합하시기 좋습니다."
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dhstm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 oz = 30mL\n1.5oz=45mL"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:gravity="right"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"/>
+
+
+
 
 </LinearLayout>
