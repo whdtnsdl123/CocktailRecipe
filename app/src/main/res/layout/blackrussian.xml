@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/glass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/underrock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기준 : 언더락(300mL)"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/glass"
+        android:id="@+id/tv_Rkffndk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="달콤한 커피의 풍미가 특징이다. 커피 리큐어의 단맛이 독한 보드카를 부드럽게 하여, 알코올 함량이 높은데도 감칠맛이 좋은 인상적인 칵테일이다."
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <!--    -->
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/iv_RKffndk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Rkffndk">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/vodka"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보드카 1oz"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <!--    -->
+
+
+    <LinearLayout
+        android:id="@+id/vmffjtm"
+        android:layout_below="@id/iv_RKffndk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_RKffndk"
+            android:layout_marginLeft="90dp"
+            android:text="+"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/dndb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vmffjtm">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kahlua"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="깔루아 1.5oz"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+    <!--    -->
+
+
+
+</RelativeLayout>
+
+
+
+

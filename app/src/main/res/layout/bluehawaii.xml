@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/glass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hibol"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기준 : 하이볼(300mL)"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_fkdlwm"
+                android:layout_below="@+id/glass"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1957년 하와이 힐트 호텔 바텐더가 개발한 칵테일 입니다. 사계절이 여름인 하와이 섬을 연상시키는 칵테일로서 새콤달콤한 맛이 특징이다."
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/iv_RKffndk"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_fkdlwm">
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/lonedi"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="론디아즈 1 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/vmffjtm"
+                android:layout_below="@id/iv_RKffndk"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dndb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vmffjtm">
+
+                <ImageView
+                    android:id="@+id/rmfpskels"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/blue" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="블루큐라소 1oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/plus"
+                android:layout_below="@+id/dndb"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/sugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plus">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/giroux"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tlfjq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="라임 0.5 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/plus2"
+                android:layout_below="@+id/sugar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/sdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plus2">
+
+                <ImageView
+                    android:id="@+id/sss"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/fineapple"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="파인애플 주스\n 적당히 채우기 "
+                    android:maxLines="2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_below="@id/sdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="얼음을 먼저 넣은 후 제조 술을 다 넣고 셰이커나 믹서기로 섞어줘야 합니다."/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
