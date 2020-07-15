@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:src="@drawable/under"/>
+            android:src="@drawable/underrock"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:id="@+id/tv_Rkffndk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="우유에 커피 르큐르인 깔루아를 섞은 것으로 달콤하고 부드러우며 도수는 맥주와 비슷한 정도 입니다. 우유를 어느정도 넣어주느냐에 따라서 도수가 달라지겠죠~?"
+        android:text="우유에 커피 리큐르 깔루아를 섞은 것으로 달콤하고 부드러우며 도수는 맥주와 비슷한 정도 입니다. 우유를 어느정도 넣어주느냐에 따라서 도수가 달라지겠죠~?"
         android:textStyle="bold"
         android:textSize="20sp"/>
 
