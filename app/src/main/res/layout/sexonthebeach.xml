@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/glass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hibol"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기준 : 하이볼"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_fkdlwm"
+                android:layout_below="@+id/glass"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="톰 크루즈가 주연한 1980년대 영화 칵테일(Cocktail)로 일약 유명해진 섹스 온 더 비치는‘해변의 정사’란 이름부터 놀랍고 얼굴이 빨개질 만한 칵테일이다. 바텐더인 톰 크루즈가 바 탑(Bar Top)에 올라가서 여러 가지 칵테일 이름을 말하는 장면이 있는데, 그중 하나가 이 칵테일이다. 날씨 좋은 해변가에서 적당한 알코올과 과일 주스로 만들어진 상큼한 트로피컬 칵테일 한잔! 생각만으로도 갈증이 해소되는 느낌이 든다."
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/iv_RKffndk"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_fkdlwm">
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/vodka"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="보드카 1 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/vmffjtm"
+                android:layout_below="@id/iv_RKffndk"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dndb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vmffjtm">
+
+                <ImageView
+                    android:id="@+id/rmfpskels"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/peach" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="피치 0.5 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+            <!--    -->
+
+
+            <LinearLayout
+                android:id="@+id/plus"
+                android:layout_below="@+id/dndb"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/sugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plus">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cassis"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tlfjq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="크림드카시스 0.5 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/plus2"
+                android:layout_below="@+id/sugar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_RKffndk"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/sdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plus2">
+
+                <ImageView
+                    android:id="@+id/sss"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/orangej"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오렌지주스 2 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/plus3"
+                android:layout_below="@+id/sdf"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sss"
+                    android:layout_marginLeft="90dp"
+                    android:text="+"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/sdf2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plus3">
+
+                <ImageView
+                    android:id="@+id/sss2"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cranberry"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="크렌베리주스 2 oz"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_below="@+id/sdf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="셰이커를 이용하시거나 텀블러를 사용하셔도 됩니다 섞어주세요!"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

@@ -30,11 +30,11 @@ public class NormalFragment extends Fragment {
         setHasOptionsMenu(true);
 
         items.add(new Item("롱아일랜드아이스티",R.drawable.longtee,"https://media.istockphoto.com/photos/long-island-iced-tea-picture-id180888927?k=6&m=180888927&s=170667a&w=0&h=EWPsZHys_ISiIJcSDWMBjRyT18R7M2u0SYwTHcNRwnU="));
-        items.add(new Item("레몬 드랍",R.drawable.lemondrop,"https://lh3.googleusercontent.com/proxy/VJUafPjlgJDcbXo0GRQ97kg8RRLhjtLmXD6yx7EuZ86HTiB-jFJDSPbdT3k5Kcu4F0-iwNXthel0G8RAP4KhC-vH358i9K_ryrDyi903LRS9vJow2iZQa5Ra5eMcT4TsiMSgcrIYIbQ34EOBjPFYUSa-UHP9jdHDg4_wIy0cfURoscpvbOG9xy8z-8Rivj1Q4sSj-hxbyth_Dsnmq9LkPjMAAWkDFYHomb301aaHNPpHbzw0ufz1X-q2Qo_FnVfNYeGkGxM-SXOUe3BUdka-684uMLOzy4d3hvyWqgrHD0bLDXivkDdrjpVbYgob1C5DkX3P2U6iCIO6sIBODc13Ww"));
+        items.add(new Item("미도리샤워",R.drawable.shower,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/de34bbe5-8bdd-4149-960b-edae43cb1943.jpg"));
         items.add(new Item("블루사파이어",R.drawable.bluesapphire,"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F235507495243A5CB24"));
-        items.add(new Item("섹스온더비치",R.drawable.maribu,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/9162c6d4-4df8-417c-a108-290dd9ccdb69.jpg"));
-        items.add(new Item("잭콕",R.drawable.shower,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/de34bbe5-8bdd-4149-960b-edae43cb1943.jpg"));
-        items.add(new Item("준벅",R.drawable.vodkaorange,"https://w.namu.la/s/4135731d63daca9e71fb0f280fe4b25e697411015ec2429f3dca1514405d0137992d2ccc48bde4e3bf7632756e36ec340ef295ca1ccc3fa312a9f9f4db5c6c6733abe51a8ab1d8ba79a65a1e2ab6b7f1285e3a6b57fd3d88241da87b977d5cc9"));
+        items.add(new Item("섹스온더비치",R.drawable.sexonthebeach,"https://lh3.googleusercontent.com/proxy/4w3XTGeErZw4nhRxGAD6wKrO58Ukaz-83o6AtgHsWegNIiCmGfBwavky7rhOm5CJESzBptm0RIbhZbWifUN8q7mz4GKVnMuYBvopSHT4jEBzzIIs2rQNWYuh1xboCPlfAJqt48KLwbQMjAqEI3l14UN5k6wGwYeVC9nCEjcWFcMV66Plxx8"));
+        items.add(new Item("블루하와이",R.drawable.hawaii,"https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F276BF537524A70990DF889"));
+        items.add(new Item("준벅",R.drawable.junebug,"https://cphoto.asiae.co.kr/listimglink/1/2020022113351772164_1582259717.png"));
 
 
     }

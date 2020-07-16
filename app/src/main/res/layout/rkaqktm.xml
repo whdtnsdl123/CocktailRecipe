@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감바스 레시피"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_wofy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:textStyle="bold"
+        android:text="재료 : 칵테일새우(15개),다진마늘(1스푼),작은마늘(10개),페퍼론치노,올리브유,소금,후추"
+        android:textSize="20dp"/>
+    
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_wnsql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wofy"
+        android:textStyle="bold"
+        android:text="1.새우를 씻는데 냉동실에 얼려져 있을 경우엔 물에 담궈서 해동을 시킨 후에 씻어줍니다."/>
+
+    <TextView
+        android:id="@+id/tv_wnsql2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.후라이팬에 올리브유를 새우가 넉넉히 잠길정도로 부어줍니다.(이때 불을 미리 살짝 켜주셔야해요!)"/>
+    <TextView
+        android:id="@+id/tv_wnsql3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="3.씻은 새우를 키친타올에 올려 물기를 제거합니다."/>
+    <TextView
+        android:id="@+id/tv_wnsql4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql3"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="4.준비 된 새우를 키친타올에 물기를 흡수 한 후 준비해둔 소금과 후추를 입맛대로 뿌려줍니다."/>
+    <TextView
+        android:id="@+id/tv_wnsql5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql4"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="5.통마늘을 3등분으로 얇게 썰어줍니다. 얇을 수록 더욱 바삭해져서 식감이 좋아져요!"/>
+    <TextView
+        android:id="@+id/tv_wnsql6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql5"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="6.썰은마늘, 다진마늘, 페퍼런치노를 후라이팬에 투하해주세요!"/>
+    <TextView
+        android:id="@+id/tv_wnsql7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql6"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="7.간 해둔 새우를 같이 투하해주세요 투명한 새우가 붉어질때까지 올려두시면 됩니다~"/>
+
+</RelativeLayout>
