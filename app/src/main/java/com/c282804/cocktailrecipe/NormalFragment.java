@@ -35,7 +35,7 @@ public class NormalFragment extends Fragment {
         items.add(new Item("섹스온더비치",R.drawable.maribu,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/9162c6d4-4df8-417c-a108-290dd9ccdb69.jpg"));
         items.add(new Item("잭콕",R.drawable.shower,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/de34bbe5-8bdd-4149-960b-edae43cb1943.jpg"));
         items.add(new Item("준벅",R.drawable.vodkaorange,"https://w.namu.la/s/4135731d63daca9e71fb0f280fe4b25e697411015ec2429f3dca1514405d0137992d2ccc48bde4e3bf7632756e36ec340ef295ca1ccc3fa312a9f9f4db5c6c6733abe51a8ab1d8ba79a65a1e2ab6b7f1285e3a6b57fd3d88241da87b977d5cc9"));
-//ffffff
+
 
     }
 
