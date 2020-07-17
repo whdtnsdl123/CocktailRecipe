@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소세지구이 레시피"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_wofy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:textStyle="bold"
+        android:text="재료 :올리브유, 마늘  4쪽, 페퍼론치노3개, 소세지 여러개 ,파슬리 가루 , 칠리,케챱소스 "
+        android:textSize="20dp"/>
+
+
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_wnsql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wofy"
+        android:textStyle="bold"
+        android:text="1.마늘 4쪽을 3등분내 얇게 썰고, 페퍼론치노 3개를 잘게 다집니다. 소세지에도 칼집을 내주세요. "/>
+
+
+
+    <TextView
+        android:id="@+id/tv_wnsql2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.후라이팬을 달군 후 올리브유를 두르고 마늘, 페퍼론치노 볶아줍니다 "/>
+    <TextView
+        android:id="@+id/tv_wnsql3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="3.마늘 , 페퍼론치노를 잘 볶아 후라이팬에 향이 올라오면 칼집 낸 소세지를 넣고 노릇하게 익어 질 때 까지 잘 구워줍니다. " />
+    <TextView
+        android:id="@+id/tv_wnsql4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql3"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="4.마지막으로 후추가루를 입 맛에 맞게 뿌리고 파슬리를 올려준다면 완성!"/>
+
+
+
+</RelativeLayout>

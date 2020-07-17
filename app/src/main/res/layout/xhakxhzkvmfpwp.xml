@@ -9,7 +9,7 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="닭가슴살샐러드 레시피"
+        android:text="토마토 카프레제 레시피"
         android:gravity="center"
         android:textSize="35sp"
         android:textStyle="bold"/>
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_title"
         android:textStyle="bold"
-        android:text="재료 : 닭가슴살 200g , 드레싱소스 , 방울토마토 4개, 올리브 4개 , 양상추 먹을만큼, 발사믹 글레이즈 "
+        android:text="재료 : 모짜렐라 치즈 1봉지 ,토마토 2개,발사믹 글레이즈, 바질 잎 적당히"
         android:textSize="20dp"/>
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_wofy"
         android:textStyle="bold"
-        android:text="1.닭가슴살 200g은 편의점에 구매하시는게 편리하실겁니다! 닭가슴살 1봉지에 평균 100g입니다. "/>
+        android:text="1.토마토 2개 모두 1cm 두께로 모양을 이쁘게 살리면서 자릅니다"/>
 
     <TextView
         android:id="@+id/tv_wnsql2"
@@ -40,7 +40,7 @@
         android:layout_below="@id/tv_wnsql"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="2.방울토마토 하나씩 별(*)모양으로 6등분 해주세요. 올리브는 취향대로 잘라주세요"/>
+        android:text="2.모짜렐라 치즈도 마찬가지로 1cm두께로 잘라줍니다."/>
     <TextView
         android:id="@+id/tv_wnsql3"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:layout_below="@id/tv_wnsql2"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="3.닭가슴살을 전자레인지에 데우시고 꺼내 칼로 2센치 두께로 잘라줍니다 찢으면 식감이 안살아요!  "/>
+        android:text="3.토마토와 모짜렐라 치즈에 소금,후추가루를 뿌리며 입 맛에 맞게 간을 해줍니다."/>
     <TextView
         android:id="@+id/tv_wnsql4"
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         android:layout_below="@id/tv_wnsql3"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="4.접시에 풀어낸 양상추를 올리고 닭가슴살과 드레싱을 넣고 마구 섞어줍니다. "/>
+        android:text="4.토마토 , 치즈 , 바질 순서대로 모양내어 놓아줍니다."/>
     <TextView
         android:id="@+id/tv_wnsql5"
         android:layout_width="match_parent"
@@ -64,6 +64,6 @@
         android:layout_below="@id/tv_wnsql4"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="5.마지막으로 방울토마토, 올리브로 모양을 내준 후 발사믹 글레이즈를 뿌려주면 완성!"/>
+        android:text="5.접시에 올려진 음식에 발사믹 글레이즈를 이쁘게 뿌려주면 완성!"/>
 
 </RelativeLayout>

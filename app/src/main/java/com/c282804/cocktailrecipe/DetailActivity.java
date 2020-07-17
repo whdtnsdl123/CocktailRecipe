@@ -57,10 +57,10 @@ public class DetailActivity extends AppCompatActivity {
             setContentView(R.layout.junebug);
         } else if (name.equals("감바스")) {
             setContentView(R.layout.rkaqktm);
-        } else if (name.equals("치킨너겟")) {
-            setContentView(R.layout.clzlssjrpt);
-        } else if (name.equals("꿀토마토")) {
-            setContentView(R.layout.rnfxhakxh);
+        } else if (name.equals("오일파스타")) {
+            setContentView(R.layout.dhdlfvktmxk);
+        } else if (name.equals("토마토카프레제")) {
+            setContentView(R.layout.xhakxhzkvmfpwp);
         } else if (name.equals("치즈나쵸")) {
             setContentView(R.layout.clwmskcy);
         } else if (name.equals("소세지구이")) {

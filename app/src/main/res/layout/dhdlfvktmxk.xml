@@ -9,7 +9,7 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="닭가슴살샐러드 레시피"
+        android:text="오일파스타 레시피"
         android:gravity="center"
         android:textSize="35sp"
         android:textStyle="bold"/>
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_title"
         android:textStyle="bold"
-        android:text="재료 : 닭가슴살 200g , 드레싱소스 , 방울토마토 4개, 올리브 4개 , 양상추 먹을만큼, 발사믹 글레이즈 "
+        android:text="재료 : 파스타 면 100g, 굵은 소금 1/2큰 술 마늘6개, 페퍼론치노 3개, 올리브유 3큰 술 , 후추가루 , 파슬리가루"
         android:textSize="20dp"/>
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_wofy"
         android:textStyle="bold"
-        android:text="1.닭가슴살 200g은 편의점에 구매하시는게 편리하실겁니다! 닭가슴살 1봉지에 평균 100g입니다. "/>
+        android:text="1.먼저 준비한 마늘 전부 3등분 해주고 페퍼론치노 잘게 썰어주세요. "/>
 
     <TextView
         android:id="@+id/tv_wnsql2"
@@ -40,7 +40,7 @@
         android:layout_below="@id/tv_wnsql"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="2.방울토마토 하나씩 별(*)모양으로 6등분 해주세요. 올리브는 취향대로 잘라주세요"/>
+        android:text="2.냄비에 물 적당히 넣고 끓는 물에 굵은 소금 1/2큰술을 넣어주세요."/>
     <TextView
         android:id="@+id/tv_wnsql3"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:layout_below="@id/tv_wnsql2"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="3.닭가슴살을 전자레인지에 데우시고 꺼내 칼로 2센치 두께로 잘라줍니다 찢으면 식감이 안살아요!  "/>
+        android:text="3.끓게 되면 파스타 100g을 넣어주세요. 서로 안붙게 젓가락으로 저어 주셔야합니다."/>
     <TextView
         android:id="@+id/tv_wnsql4"
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         android:layout_below="@id/tv_wnsql3"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="4.접시에 풀어낸 양상추를 올리고 닭가슴살과 드레싱을 넣고 마구 섞어줍니다. "/>
+        android:text="4.면이 익었다면 채반에 올려 주시고 파스타 삶은 물은 조금 남겨주세요"/>
     <TextView
         android:id="@+id/tv_wnsql5"
         android:layout_width="match_parent"
@@ -64,6 +64,22 @@
         android:layout_below="@id/tv_wnsql4"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:text="5.마지막으로 방울토마토, 올리브로 모양을 내준 후 발사믹 글레이즈를 뿌려주면 완성!"/>
+        android:text="5.후라이팬을 달군 후 올리브유 3 큰술에 썰어놓은 마늘,페퍼론치노를 넣고 마늘색이 투명해질때까지 볶습니다."/>
+    <TextView
+        android:id="@+id/tv_wnsql6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql5"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="6.건져낸 파스타와 파스타 면 4큰 술 넣고 썰어놓은 재료들도 같이 넣어주세요. 중간에 간 보고 입맛에 알맞게 소금을 추가하셔도 좋아요! "/>
+    <TextView
+        android:id="@+id/tv_wnsql7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql6"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="7.마무리로 접시에 올리고 먹기 좋게 파슬리 가루를 뿌려주면 완성입니다!"/>
 
 </RelativeLayout>

@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="베이컨치즈나쵸 레시피"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_wofy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:textStyle="bold"
+        android:text="재료 : 나쵸 , 모짜렐라 피자치즈  , 베이컨 1봉지 , 올리브 5개 , 방울 토마토 3개 , 스위트 칠리소스(다진 파프리카,다진 양파,옥수수콘)"
+        android:textSize="20dp"/>
+
+
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_wnsql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wofy"
+        android:textStyle="bold"
+        android:text="1.나쵸를 하나하나 안겹치게 접시에 미리 깔아줍니다."/>
+
+
+
+    <TextView
+        android:id="@+id/tv_wnsql2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.준비해둔 베이컨 , 올리브 , 방울 토마토를 잘라줍니다 ."/>
+    <TextView
+        android:id="@+id/tv_wnsql3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.나쵸 하나하나 윗 면에  (다진양파,다진 파프리카 ,옥수수콘 넣고 섞은) 칠리소스를 올려 줍니다. " />
+    <TextView
+        android:id="@+id/tv_wnsql4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql3"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="3.소스위에 조각 낸 베이컨을 올려줍니다."/>
+    <TextView
+        android:id="@+id/tv_wnsql5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql4"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="4.모짜렐라 피자치즈로 접시 위에 올려진 나쵸를 다 덮고 올리브 , 토마토 까지 올려줍니다. "/>
+    <TextView
+        android:id="@+id/tv_wnsql6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql5"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="5.전자레인지가 오븐에 넣고 피자치즈가 다 녹을때까지 돌려주세요!"/>
+
+
+    <TextView
+        android:id="@+id/tv_wnsql7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql6"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="6.먹기 좋게 파슬리 가루까지 뿌려주면 완성!"/>
+
+
+</RelativeLayout>
