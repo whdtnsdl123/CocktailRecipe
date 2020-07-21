@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="참치카나페 레시피"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_wofy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:textStyle="bold"
+        android:text="재료 : 참치캔 1통 200g, 크래커과자 3봉지 , 맛살 3개, 방울토마토 여러개 ,소스 마요네즈 2~3스푼 ,시즈닝 가루 1스푼"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_wnsql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wofy"
+        android:textStyle="bold"
+        android:text="1.참치캔 내용물을 꺼낸 후 스푼으로 꾹꾹 눌러 기름을 제거해주세요."/>
+
+    <TextView
+        android:id="@+id/tv_wnsql2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.맛살 전부 섞기좋게 다져주세요. 방울 토마토는 반토막 내어 카나페 개수만큼 맞춰주세요"/>
+    <TextView
+        android:id="@+id/tv_wnsql3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="3.기름 제거한 참치 , 다진맛살, 마요네즈2~3스푼,시즈닝가루 1스푼 다같이 넣고 버무리기"/>
+    <TextView
+        android:id="@+id/tv_wnsql4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql3"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="4.버무린 재료들을 준비한 크래커 위에 넘치지않게 적당량을 올려줍니다.  "/>
+    <TextView
+        android:id="@+id/tv_wnsql5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql4"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="5.슬라이스 한 토마토를 마지막으로 올려주면 완성! "/>
+
+</RelativeLayout>

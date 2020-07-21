@@ -69,8 +69,44 @@ public class DetailActivity extends AppCompatActivity {
             setContentView(R.layout.ekfrrktmatkftoffjem);
         } else if (name.equals("참치카나페")) {
             setContentView(R.layout.ckaclzkskvp);
-        } else if (name.equals("브라운치즈토스트")) {
-            setContentView(R.layout.qmfkdnsclwmxhtmxm);
+        } else if (name.equals("베이컨에그롤")) {
+            setContentView(R.layout.qpdlzjsdprmfhf);
+        } else if (name.equals("바톤 럼")){
+            setContentView(R.layout.rumbottle);
+        }else  if (name.equals("바톤 진")){
+            setContentView(R.layout.jinbottle);
+        }else  if (name.equals("바톤 보드카")){
+            setContentView(R.layout.vodkabottle);
+        }else  if (name.equals("듀랑고 골드")){
+            setContentView(R.layout.durangobottle);
+        }else  if (name.equals("론디아즈")){
+            setContentView(R.layout.londiazbottle);
+        }else if (name.equals("잭다니엘")){
+            setContentView(R.layout.jackbottle);
+        }else if (name.equals("지룩스(석류)")){
+            setContentView(R.layout.girouxredbottle);
+        }else if (name.equals("말리부")) {
+            setContentView(R.layout.malibubottle);
+        }else if (name.equals("애플퍼커")) {
+            setContentView(R.layout.applepuckerbottle);
+        }else if (name.equals("지룩스(라임)")) {
+            setContentView(R.layout.girouxlimebottle);
+        }else if (name.equals("깔루아")) {
+            setContentView(R.layout.kahluabottle);
+        }else if (name.equals("미도리")) {
+            setContentView(R.layout.midoribottle);
+        }else if (name.equals("블루큐라소")) {
+            setContentView(R.layout.bluebottle);
+        }else if (name.equals("아마레또")) {
+            setContentView(R.layout.amrettobottle);
+        }else if (name.equals("카시스리큐르")) {
+            setContentView(R.layout.cassisbottle);
+        }else if (name.equals("피치리큐르")){
+            setContentView(R.layout.peachbottle);
+        }else if (name.equals("샤워믹스")) {
+            setContentView(R.layout.sourmixbottle);
+        }else if (name.equals("트리플섹")){
+            setContentView(R.layout.triplesecbottle);
         }
 
 

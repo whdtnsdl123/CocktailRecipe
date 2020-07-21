@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="럼"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/tv_iv"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bartonrum"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_below="@id/tv_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원산지 : 서인도 제도\n\n도수 : 40 ~ 45도 \n\n 가격:10000원대 (750mL)"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_below="@id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="서인도 제도가 원산지인 럼(Rum)은 사탕수수의 제당 공정 부산물을 발효·증류·숙성한 술이다. 알코올 도수 40~45%인 럼주는 독특하고 강렬한 방향이 있어, 남국적인 야성미를 지니고 있다. 럼주는 위스키, 브랜디에 다음가는 제3의 술로서, 서양을 대표하는 싸구려 술이었고, 미국이나 유럽의 젊은 세대에 인기가 있다."/>
+
+
+
+
+</RelativeLayout>

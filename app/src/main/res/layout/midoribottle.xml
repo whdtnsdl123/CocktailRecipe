@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="미도리"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/midorib"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 일본 \n\n도수 : 23 도 \n\n 가격:60000원대 (750mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="녹색이라는 의미의 '미도리'라는 이름답게 일본에서 처음 만들어진 리큐르로, 메론 리큐르라는 범주로는 전세계적으로 유명해진 상품입니다. 웬만한 칵테일 서적에서도 '메론 리큐르' 대신 '미도리'라 표기되는 경우가 많을 정도로 이름 그 자체로 유명한 리큐르라 할 수 있습니다.
+우리나라의 바에서도 많은 칵테일에 이용되고 우리나라에서의 인지도도 상당한 술입니다."/>
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="잭다니엘"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"/>
+
+            <ImageView
+                android:id="@+id/tv_iv"
+                android:layout_below="@id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/jack"/>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_below="@id/tv_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="원산지 : 미국 \n\n도수 : 40 도 \n\n 가격:40000원대 (700mL)"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_below="@id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Jack Daniel's는 미국 테네시(Tennessee) 지방의 40%인 위스키로 독특한 맛의 이유는 우선 일등급 식용 옥수수만을 사용한다는 것이다. 그리고 최고급 호밀과 맥아, 가장 최근의 위스키 제조 시에 나온 소량의 엿기름 즙, 최초에 이 계곡에서 배양한 특수한 이스트인 순수한 잭 다니엘 위스키 제조용 이스트, 이러한 자연적인 조건뿐 아니라 뛰어난 제조기술자의 위스키 감각 자연과 가장 가까운 맛을 내는 증류, 사탕 단풍나무로 하는 완벽한 여과과정, 더욱 중요한 것은 완성된 위스키의 최종품질을 위해 고도의 훈련을 받은 시음자의 냉철한 판단으로 그 맛을 보장하고 있다. 이렇게 정성을 들인 위스키는 미국산 참나무통에 보관된 채 대자연의 깊은 환경 안에서 세계인의 풍요로운 삶을 기다리고 있다.
+"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="베이컨에그롤 레시피"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_wofy"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:textStyle="bold"
+        android:text="재료 : 베이컨 ,딸기잼 ,삶은계란 ,마요네즈 ,식빵 ,소금 ,후추 ,파슬리"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:id="@+id/tv_wnsql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wofy"
+        android:textStyle="bold"
+        android:text="1.식빵 가장자기를 떼어내고 밀대로 넓게 펴주세요."/>
+
+    <TextView
+        android:id="@+id/tv_wnsql2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="2.삶은계란을 으깨 마요네즈와 소금 후추로 입맛에 맞게 간을 해주신 후 섞어주세요"/>
+    <TextView
+        android:id="@+id/tv_wnsql3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="3.넓게 편 식빵 한 쪽에 딸기잼을 바르고 그 위에 섞은재료를 올리고 말아주세요."/>
+    <TextView
+        android:id="@+id/tv_wnsql4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql3"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="4.말아올린 식빵에 베이컨도 같이 둘러주세요. 세어나갈수있으니 조심히 말아주셔야합니다."/>
+    <TextView
+        android:id="@+id/tv_wnsql5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql4"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="5.마지막 전자레인지나 에어프라이기에 넣기 전에 파슬리를 더 뿌려줍니다!"/>
+
+    <TextView
+        android:id="@+id/tv_wnsql6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wnsql5"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="전자레인지 : 에그롤 1개당 35초\n에어프라이기 : 온도 180도 15분"/>
+
+</RelativeLayout>

@@ -36,7 +36,7 @@ public class FoodFragment extends Fragment {
         items.add(new Item("소세지구이",R.drawable.fork,"https://lh3.googleusercontent.com/proxy/VJUafPjlgJDcbXo0GRQ97kg8RRLhjtLmXD6yx7EuZ86HTiB-jFJDSPbdT3k5Kcu4F0-iwNXthel0G8RAP4KhC-vH358i9K_ryrDyi903LRS9vJow2iZQa5Ra5eMcT4TsiMSgcrIYIbQ34EOBjPFYUSa-UHP9jdHDg4_wIy0cfURoscpvbOG9xy8z-8Rivj1Q4sSj-hxbyth_Dsnmq9LkPjMAAWkDFYHomb301aaHNPpHbzw0ufz1X-q2Qo_FnVfNYeGkGxM-SXOUe3BUdka-684uMLOzy4d3hvyWqgrHD0bLDXivkDdrjpVbYgob1C5DkX3P2U6iCIO6sIBODc13Ww"));
         items.add(new Item("닭가슴살샐러드",R.drawable.chickensala,"https://w.namu.la/s/4135731d63daca9e71fb0f280fe4b25e697411015ec2429f3dca1514405d0137992d2ccc48bde4e3bf7632756e36ec340ef295ca1ccc3fa312a9f9f4db5c6c6733abe51a8ab1d8ba79a65a1e2ab6b7f1285e3a6b57fd3d88241da87b977d5cc9"));
         items.add(new Item("참치카나페",R.drawable.sushisnack,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/5daa98d9-11d8-400d-aa8a-d6a4eb2fedc2.jpg"));
-        items.add(new Item("브라운치즈토스트",R.drawable.browncheese,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/8e98f160-0b99-4c63-969e-7d5a71a5836c.jpg"));
+        items.add(new Item("베이컨에그롤",R.drawable.eggroll,"https://dailyshotassets.s3-accelerate.amazonaws.com/media/cocktails/%25Y/%25m/%25d/8e98f160-0b99-4c63-969e-7d5a71a5836c.jpg"));
 
 
 

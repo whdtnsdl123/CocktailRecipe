@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="진"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"/>
+
+            <ImageView
+                android:id="@+id/tv_iv"
+                android:layout_below="@id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/bartonjin"/>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_below="@id/tv_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="원산지 : 러시아\n\n도수 : 40 ~ 45도 \n\n 가격:10000원대 (750mL)"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_below="@id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="가격 대비 독한 술로도 유명하다. 1894년부터 현재까지 러시아의 공식 보드카 도수는 40%다. 왜냐하면 이 정도의 도수가 몸에 가장 잘 흡수되며 해(害)도 적고 최상의 술맛을 낸다고 하는 이유에서다. 주기율표로 유명한 드미트리 멘델레예프가 당시 계량청 국장으로 있을 때 정한 것이고, 그것을 근거로 광고하는 보드카도 있다. 그러나 멘델레예프는 생리학자가 아니라 화학자고, 19세기 말이었다는 점까지 감안하면 어떤 생체기전을 분석해 만들어진 수치가 아니라 음주가들의 선호도를 조합해 결정한 수치일 것이다."/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

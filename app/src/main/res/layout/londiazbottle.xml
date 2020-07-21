@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="론디아즈"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/tv_iv"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/lonedi"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_below="@id/tv_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원산지 : 미국 \n\n도수 : 21 도 \n\n 가격:10000원대 (750mL)"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_below="@id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="카리브해의 최상급럼에 신선한 천연과일향을 더한 론디아즈 코코넛 럼은 기존 코코넛 리큐르보다 훨씬 크리미하고 진한 코코넛 밀크향이 특징이며, 여기에 고소하게 토스트된 코코넛 향이 그 풍미를 더하여, 깊고 풍부한 맛이 일품인 코코넛 럼 리큐르입니다."/>
+
+
+
+
+</RelativeLayout>
