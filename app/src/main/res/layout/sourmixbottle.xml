@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사워믹스"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/sourmix"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 말레이시아 \n\n도수 : 무알콜 \n\n 가격:10000원대 (1000mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="샤워믹스는 칵테일을 만들 때 가장 많이 사용되는 제품이다 가루,액상 따로 판매하지만 서로 장단점이 있으니 취향에 맞는걸 고르길.. 레몬맛이 강하다 "/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

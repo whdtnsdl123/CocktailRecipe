@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아마레또리큐르"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/amartto"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 네덜란드 \n\n도수 : 24 도 \n\n 가격:17000원대 (700mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="잘 익은 살구씨를 추출하여 아몬드 향과 너트 카라멜 향을 지니고 있다. 클리색 칵테일과 모던 스타일 칵테일에 두루 사용되는 리큐르이다. "/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

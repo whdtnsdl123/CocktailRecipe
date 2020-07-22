@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="트리플섹"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/triplesec"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 프랑스 \n\n도수 : 40 도 \n\n 가격:30000원대 (700mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="오렌지향이다. 트리플 섹은 1834년, 프랑스 소뮈르 지역에 살던 장바티스트 콩뷔에에 의해 발명되었다. 콩뷔에 브랜드의 트리플 섹은 오늘날에도 제조되고 있다. 아이티 산 말린 오렌지 껍질을 가지고 만드는데, 알코올에 24시간 동안 담가 두었다가 100년가량 된 구리-주전자 증류기를 가지고 증류한다."/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카시스리큐르"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/cassis"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 네덜란드 \n\n도수 : 17 도 \n\n 가격:17000원대 (700mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="그냥 원액으로 마시기에는 조금 부담스러운 편, 복분자를 응축 한 맛이난다 . 칵테일 중엔 카시스와 오렌지 주스를 섞은 카시스오렌지가 매우 대중적이다."/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

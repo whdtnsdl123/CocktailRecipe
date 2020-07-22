@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="피치리큐르"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:id="@+id/tv_iv"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/peach"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_below="@id/tv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="원산지 : 네덜란드 \n\n도수 : 17 도 \n\n 가격:17000원대 (700mL)"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_below="@id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="피치리큐르는 신선한 복숭아의 풍미에 오렌지 , 시트러스의 함축이 더해진 클리어 리큐르입니다. 칵테일 섹스온더비치에 절대적으로 필요한 제품입니다."/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
