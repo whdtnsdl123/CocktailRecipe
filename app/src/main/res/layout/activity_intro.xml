@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro">
 
 
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/intro"
-        android:scaleType="fitXY"/>
+        android:layout_height="wrap_content"
+        android:text="Cocktail Recipe"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:textColor="#FF9800"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="wellcome to App"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:textColor="#FF9800"/>
 
 
-</LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
 
 
