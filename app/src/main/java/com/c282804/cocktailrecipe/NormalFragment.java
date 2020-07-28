@@ -67,6 +67,8 @@ public class NormalFragment extends Fragment {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.option:
+                Intent intent = new Intent(getActivity(),MapActivity.class);
+                startActivity(intent);
 
 
                 break;

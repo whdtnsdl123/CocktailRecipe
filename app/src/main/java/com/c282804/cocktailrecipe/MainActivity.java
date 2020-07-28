@@ -25,29 +25,10 @@ public class MainActivity extends AppCompatActivity {
     Fragment[] fragments = new Fragment[4];
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //frag
-
 
 
         fragmentManager=getSupportFragmentManager();

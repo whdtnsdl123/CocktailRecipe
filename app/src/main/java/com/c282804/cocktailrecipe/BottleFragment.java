@@ -1,5 +1,6 @@
 package com.c282804.cocktailrecipe;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -79,6 +80,8 @@ public class BottleFragment extends Fragment {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.option:
+                Intent intent = new Intent(getActivity(),MapActivity.class);
+                startActivity(intent);
 
                 break;
         }
