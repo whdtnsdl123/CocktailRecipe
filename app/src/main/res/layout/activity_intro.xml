@@ -12,9 +12,10 @@
         android:layout_height="wrap_content"
         android:text="Cocktail Recipe"
         android:textSize="40sp"
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:textStyle="bold"
         android:gravity="center"
-        android:paddingTop="30dp"
+        android:paddingTop="50dp"
         android:textColor="#FF9800"/>
 
     <TextView
@@ -24,6 +25,7 @@
         android:textSize="20dp"
         android:text="wellcome to App"
         android:layout_alignParentBottom="true"
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:gravity="center"
         android:layout_marginBottom="100dp"
         android:textColor="#FF9800"/>

@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fontFamily="@font/tmoneyroundwindregular"
     android:padding="8dp">
 
     <TextView
@@ -23,6 +24,7 @@
         android:textStyle="bold"
         android:text="재료 : 참치캔 1통 200g, 크래커과자 3봉지 , 맛살 3개, 방울토마토 여러개 ,소스 마요네즈 2~3스푼 ,시즈닝 가루 1스푼"
         android:textSize="20dp"/>
+
 
     <TextView
         android:layout_marginTop="18dp"

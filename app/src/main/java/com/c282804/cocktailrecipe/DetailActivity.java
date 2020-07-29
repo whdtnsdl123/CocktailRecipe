@@ -24,6 +24,7 @@ public class DetailActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(name);
 
 
+
         //선택된 name에 따라 다른 화면의 값으로 변경
         if (name.equals("데낄라선라이즈")) {
             setContentView(R.layout.sunrise);

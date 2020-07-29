@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="1957년 하와이 힐트 호텔 바텐더가 개발한 칵테일 입니다. 사계절이 여름인 하와이 섬을 연상시키는 칵테일로서 새콤달콤한 맛이 특징이다."
-                android:textStyle="bold"
+                android:fontFamily="@font/tmoneyroundwindregular"
                 android:textSize="20sp"/>
 
             <!--    -->

@@ -33,8 +33,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="달콤한 커피의 풍미가 특징이다. 커피 리큐어의 단맛이 독한 보드카를 부드럽게 하여, 알코올 함량이 높은데도 감칠맛이 좋은 인상적인 칵테일이다."
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:layout_marginTop="20dp"
-        android:textStyle="bold"
         android:textSize="20sp"/>
 
     <!--    -->

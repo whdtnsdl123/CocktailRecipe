@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:textSize="20sp"
+            android:fontFamily="@font/tmoneyroundwindregular"
             android:text="그냥 원액으로 마시기에는 조금 부담스러운 편, 복분자를 응축 한 맛이난다 . 칵테일 중엔 카시스와 오렌지 주스를 섞은 카시스오렌지가 매우 대중적이다."/>
 
 

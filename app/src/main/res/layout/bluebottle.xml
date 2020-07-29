@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:textSize="20sp"
+            android:fontFamily="@font/tmoneyroundwindregular"
             android:text="깔루아는 멕시코의 베라크루스 지역에서 생산되는 커피리큐어로서, 1936년부터 생산되었다. 깔루아는 100% 아라비카 커피원두와 사탕수수의 혼합으로 만들어진 증류주에 바닐라와 캐러멜을 더하여 특별한 맛을 낸다. 깔루아는 칵테일의 종류 중 하나인 에스프레소 마티니의 최고의 재료로 사용된다."/>
 
 

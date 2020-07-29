@@ -1,6 +1,8 @@
 package com.c282804.cocktailrecipe;
 
 import android.content.Intent;
+import android.graphics.fonts.Font;
+import android.graphics.fonts.FontFamily;
 import android.os.Bundle;
 import android.support.v4.app.INotificationSideChannel;
 import android.view.LayoutInflater;
@@ -75,6 +77,7 @@ public class EasyFragment extends Fragment {
             case R.id.option:
                 Intent intent = new Intent(getActivity(),MapActivity.class);
                 startActivity(intent);
+
 
 
                 break;

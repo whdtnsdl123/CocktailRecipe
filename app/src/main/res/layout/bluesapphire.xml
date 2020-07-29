@@ -42,7 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="음료 속 얼음이 파란 보석같다고 해서 지어진 이름입니다. 단 맛 나는 술을 선호하시는 분들은 이 칵테일이 입 맛에 아주 잘맞을거에요."
-                android:textStyle="bold"
+                android:fontFamily="@font/tmoneyroundwindregular"
+
                 android:textSize="20sp"/>
 
             <!--    -->

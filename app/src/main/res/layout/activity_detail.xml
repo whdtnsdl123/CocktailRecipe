@@ -34,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="우유에 커피 리큐르 깔루아를 섞은 것으로 달콤하고 부드러우며 도수는 맥주와 비슷한 정도 입니다. 우유를 어느정도 넣어주느냐에 따라서 도수가 달라지겠죠~?"
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:textStyle="bold"
         android:textSize="20sp"/>
 
