@@ -144,7 +144,6 @@ public class MapActivity extends AppCompatActivity {
                         String title = marker.getTitle();
 
                         if (title.equals("부쉬윅")) {
-                            //교육원 홈페이지로 이동(웹브라우저 실행)
                             Intent intent = new Intent();
                             intent.setAction(Intent.ACTION_VIEW);
                             Uri uri = Uri.parse("https://store.naver.com/restaurants/detail?id=1514939124");

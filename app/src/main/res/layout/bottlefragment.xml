@@ -10,6 +10,7 @@
         android:id="@+id/tv_djfdma"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:text="판매 제품이 아니며 칵테일 제조를 보다 쉽게하고 가격을 편하게 알려드리기 위함입니다.(search: 보드카 )"
         android:padding="10dp"
         android:gravity="center"/>

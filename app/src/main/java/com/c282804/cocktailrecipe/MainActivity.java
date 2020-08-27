@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 
+import android.graphics.fonts.FontFamily;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -49,7 +50,12 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
                 FragmentTransaction tran = fragmentManager.beginTransaction();
+
                 switch (menuItem.getItemId()){
+
+
+
+
 
 
                     case R.id.Easy_:

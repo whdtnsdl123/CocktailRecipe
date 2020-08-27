@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="깔루아밀크"
+            android:fontFamily="@font/tmoneyroundwindregular"
             android:textStyle="bold"
             android:layout_marginTop="8dp"
             android:layout_below="@+id/iv"

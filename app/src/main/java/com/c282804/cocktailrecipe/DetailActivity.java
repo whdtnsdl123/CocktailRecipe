@@ -3,6 +3,7 @@ package com.c282804.cocktailrecipe;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.fonts.FontFamily;
 import android.os.Bundle;
 
 public class DetailActivity extends AppCompatActivity {

@@ -10,6 +10,7 @@
         android:id="@+id/tv_djfdma"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/tmoneyroundwindregular"
         android:text="얼음을 필수로 먼저 넣어야 혼합하시기 좋습니다."
         android:padding="10dp"
         android:gravity="center"/>
@@ -23,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1 oz = 30mL\n1.5oz=45mL"
+            android:fontFamily="@font/tmoneyroundwindregular"
             android:textSize="20sp"
             android:padding="5dp"
             android:gravity="right"
